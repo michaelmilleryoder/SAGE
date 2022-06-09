@@ -1,0 +1,13 @@
+prefix=/home/mamille3/SAGE/py-sage/conda_env
+exec_prefix=/home/mamille3/SAGE/py-sage/conda_env
+libdir=/home/mamille3/SAGE/py-sage/conda_env/lib
+sharedlibdir=/home/mamille3/SAGE/py-sage/conda_env/lib
+includedir=/home/mamille3/SAGE/py-sage/conda_env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

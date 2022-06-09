@@ -1,0 +1,134 @@
+{
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "backports",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/mamille3/miniconda3/pkgs/configparser-4.0.2-py27_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/backports/configparser/__init__.py",
+    "lib/python2.7/site-packages/backports/configparser/__init__.pyc",
+    "lib/python2.7/site-packages/backports/configparser/helpers.py",
+    "lib/python2.7/site-packages/backports/configparser/helpers.pyc",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/LICENSE",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/METADATA",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/RECORD",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/WHEEL",
+    "lib/python2.7/site-packages/configparser-4.0.2.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/configparser.py",
+    "lib/python2.7/site-packages/configparser.pyc"
+  ],
+  "fn": "configparser-4.0.2-py27_0.conda",
+  "legacy_bz2_md5": "fab0d0987afb4a8d629c797cc600c501",
+  "legacy_bz2_size": 43396,
+  "license": "MIT",
+  "link": {
+    "source": "/home/mamille3/miniconda3/pkgs/configparser-4.0.2-py27_0",
+    "type": 1
+  },
+  "md5": "b0b21d698582181d2468943920568f12",
+  "name": "configparser",
+  "package_tarball_full_path": "/home/mamille3/miniconda3/pkgs/configparser-4.0.2-py27_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b61850a81d6a58d29ff85dc2a59158b230bc613fbf23fbc5d30e098ae41f8962",
+        "sha256_in_prefix": "b61850a81d6a58d29ff85dc2a59158b230bc613fbf23fbc5d30e098ae41f8962",
+        "size_in_bytes": 56628
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "dab8f3df756679587df5b81fa5b3d45d0336eb105c784eee006be8fd5c8e13e2",
+        "sha256_in_prefix": "dab8f3df756679587df5b81fa5b3d45d0336eb105c784eee006be8fd5c8e13e2",
+        "size_in_bytes": 56753
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "4f14f4d2576c1ef21c890a6697561aa077ddb53974df72a6eb2c304fe5369d17",
+        "sha256_in_prefix": "4f14f4d2576c1ef21c890a6697561aa077ddb53974df72a6eb2c304fe5369d17",
+        "size_in_bytes": 7543
+      },
+      {
+        "_path": "lib/python2.7/site-packages/backports/configparser/helpers.pyc",
+        "path_type": "hardlink",
+        "sha256": "97b90455ca90d9d9e8034510840e3a1f3a5893cf047f76c5aefd8ee53aa38431",
+        "sha256_in_prefix": "97b90455ca90d9d9e8034510840e3a1f3a5893cf047f76c5aefd8ee53aa38431",
+        "size_in_bytes": 10338
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+        "sha256_in_prefix": "a55e2ffe9b44998e621d51d8c094bed09acc4b5236ee73d7df395a33ba3c18fd",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e2de8e9a301780fe746b6ac8ef7556a7044c3fab71526a65bea05abcd875dc3f",
+        "sha256_in_prefix": "e2de8e9a301780fe746b6ac8ef7556a7044c3fab71526a65bea05abcd875dc3f",
+        "size_in_bytes": 10909
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "790d310a3782a1049c8909ab85bfee26ce745adf937d99ebd75478b5a41c681d",
+        "sha256_in_prefix": "790d310a3782a1049c8909ab85bfee26ce745adf937d99ebd75478b5a41c681d",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser-4.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "988b3c81a8ddedcbc45a1565bafe2eea871a1f0fd327daceae9919105bfeec77",
+        "sha256_in_prefix": "988b3c81a8ddedcbc45a1565bafe2eea871a1f0fd327daceae9919105bfeec77",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser.py",
+        "path_type": "hardlink",
+        "sha256": "e1500312cc02c33cbf443560be37b70666610fa8b0a37938124519720ccb0f83",
+        "sha256_in_prefix": "e1500312cc02c33cbf443560be37b70666610fa8b0a37938124519720ccb0f83",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "lib/python2.7/site-packages/configparser.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc4d644310aa8c0e51b31f938ab8f8e26a761f84d222c3cdbc5e4a5674706851",
+        "sha256_in_prefix": "fc4d644310aa8c0e51b31f938ab8f8e26a761f84d222c3cdbc5e4a5674706851",
+        "size_in_bytes": 1902
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e2f6a8d72cce60051b674880478dd5ae92ef04a8cf8b5a5041d60b810851dbe1",
+  "size": 43862,
+  "subdir": "linux-64",
+  "timestamp": 1569428663733,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/configparser-4.0.2-py27_0.conda",
+  "version": "4.0.2"
+}

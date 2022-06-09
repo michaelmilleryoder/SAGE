@@ -1,0 +1,131 @@
+{
+  "build": "pyhd3eb1b0_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "extracted_package_dir": "/home/mamille3/miniconda3/pkgs/singledispatch-3.7.0-pyhd3eb1b0_1001",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/LICENSE",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/REQUESTED",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/direct_url.json",
+    "lib/python2.7/site-packages/singledispatch-3.7.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/singledispatch/__init__.py",
+    "lib/python2.7/site-packages/singledispatch/helpers.py",
+    "lib/python2.7/site-packages/singledispatch/__init__.pyc",
+    "lib/python2.7/site-packages/singledispatch/helpers.pyc"
+  ],
+  "fn": "singledispatch-3.7.0-pyhd3eb1b0_1001.conda",
+  "legacy_bz2_md5": "dfbbda0fa538d1f8cc92881b6f5a240e",
+  "legacy_bz2_size": 12319,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/mamille3/miniconda3/pkgs/singledispatch-3.7.0-pyhd3eb1b0_1001",
+    "type": 1
+  },
+  "md5": "ae841aa224b6853ae98d314f585113d8",
+  "name": "singledispatch",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/mamille3/miniconda3/pkgs/singledispatch-3.7.0-pyhd3eb1b0_1001.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e3e30fc2c37ccad35cb748917acb65cbdc880c584de69ffba5a65103bb0bf08d",
+        "sha256_in_prefix": "e3e30fc2c37ccad35cb748917acb65cbdc880c584de69ffba5a65103bb0bf08d",
+        "size_in_bytes": 3626
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "71f5b83bfa63a91ddd855b5295fc35be5e8e888129616f001161c970dec295f3",
+        "sha256_in_prefix": "71f5b83bfa63a91ddd855b5295fc35be5e8e888129616f001161c970dec295f3",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a7008dfa34ac3bb108e1950d372be2bf96d5e1200efaa08e2f325ba6885e449e",
+        "sha256_in_prefix": "a7008dfa34ac3bb108e1950d372be2bf96d5e1200efaa08e2f325ba6885e449e",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/singledispatch-3.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b7fd4741049029785a7c1720389a19679cbe84fce4555d202163f65888cbec90",
+        "sha256_in_prefix": "b7fd4741049029785a7c1720389a19679cbe84fce4555d202163f65888cbec90",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/singledispatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "936d87dcbdffecca24738f70f4fef2bf6a8b5f9208c584f175923f7ba5b09ba6",
+        "sha256_in_prefix": "936d87dcbdffecca24738f70f4fef2bf6a8b5f9208c584f175923f7ba5b09ba6",
+        "size_in_bytes": 11318
+      },
+      {
+        "_path": "site-packages/singledispatch/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "cce51b267fa543d50c29a6d20d480cac3bb9530f8361a641465e434441c40fb6",
+        "sha256_in_prefix": "cce51b267fa543d50c29a6d20d480cac3bb9530f8361a641465e434441c40fb6",
+        "size_in_bytes": 6941
+      },
+      {
+        "_path": "lib/python2.7/site-packages/singledispatch/__init__.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python2.7/site-packages/singledispatch/helpers.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aaea86e2f5757773bbd5b06f52e8e23cf5a6f284f0ddd3633cb916f2f5c66213",
+  "size": 12592,
+  "subdir": "noarch",
+  "timestamp": 1629321235919,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/singledispatch-3.7.0-pyhd3eb1b0_1001.conda",
+  "version": "3.7.0"
+}
