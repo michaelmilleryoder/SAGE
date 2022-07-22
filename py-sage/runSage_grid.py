@@ -32,7 +32,7 @@ def writeEtaCSV(outpath, etas,vect,x,X_base,num_keywords=25):
             for word in sage.topK(eta,vocab,num_keywords):
                 idx = vect.vocabulary_[word]
                 writer.writerow({'source':filename,
-                                 'word':word,
+                                 'word':word.encode('utf8'),
                                  'sage':eta[idx],
                                  'file_count':x[filename][idx],
                                  'file_rate':x[filename][idx]/float(x[filename].sum()),
@@ -43,18 +43,21 @@ def writeEtaCSV(outpath, etas,vect,x,X_base,num_keywords=25):
 
 def main():
     # Define settings
-    splits = ['identities', 'categories', 'power']
-    vocab_sizes = [3000] # [1500, 3000, 5000, 10000]
-    smoothing_rates = [10, 20, 50, 100]
-    num_keywords = 10
+    #splits = ['1_bycontinent'] # ['0_pro_anti_bot_human']
+    splits = ['0_pro_anti_bot_human']
+    vocab_sizes = [1500, 3000, 5000, 10000]
+    smoothing_rates = [1, 10, 20, 50, 100]
+    num_keywords = 20
     
-    #for vocab_size in vocab_sizes:
     for vocab_size in tqdm(vocab_sizes, ncols=80):
         for smoothing_rate in tqdm(smoothing_rates, ncols=50):
             for split in splits:
-                files = os.path.join('/home/mamille3/hegemonic_hate/data', split, '*')
+                files = os.path.join('input', split, '*')
                 etas, vect, x, X_base = runSage(files, None, vocab_size, float(smoothing_rate))
-                outpath = 'output/{}_{}words_{}vocab_{}smoothing.csv'.format(split, num_keywords, vocab_size, smoothing_rate)
+                out_dirpath = os.path.join('output', split)
+                if not os.path.exists(out_dirpath):
+                    os.mkdir(out_dirpath)
+                outpath = os.path.join(out_dirpath, '{}words_{}vocab_{}smoothing.csv'.format(num_keywords, vocab_size, smoothing_rate))
                 writeEtaCSV(outpath, etas, vect, x, X_base, num_keywords)
 
 
