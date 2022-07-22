@@ -1,6 +1,5 @@
 """
 Runs SAGE with a grid search over multiple parameters (just searching for good output)
-Can't get this to work for some reason
 """
 
 from runSage import runSage, printEtaCSV
@@ -44,7 +43,7 @@ def writeEtaCSV(outpath, etas,vect,x,X_base,num_keywords=25):
 
 def main():
     # Define settings
-    splits = ['identity', 'categories', 'power']
+    splits = ['identities', 'categories', 'power']
     vocab_sizes = [3000] # [1500, 3000, 5000, 10000]
     smoothing_rates = [10, 20, 50, 100]
     num_keywords = 10
