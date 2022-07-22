@@ -45,7 +45,7 @@ def main():
     # Define settings
     #splits = ['1_bycontinent'] # ['0_pro_anti_bot_human']
     splits = ['0_pro_anti_bot_human']
-    vocab_sizes = [1500, 3000, 5000, 10000]
+    vocab_sizes = [3000, 5000, 10000] #[1500, 3000, 5000, 10000]
     smoothing_rates = [1, 10, 20, 50, 100]
     num_keywords = 20
     
