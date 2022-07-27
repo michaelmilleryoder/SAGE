@@ -6,7 +6,7 @@ Run `conda create -p <env_dirpath> --file requirements.txt` to create a new Pyth
 It expects a directory with different text files that each contain a section of the corpus. Each of these text files contain one sentence or document per line, tokenized and lowercased if you want.
 
 ## Running
-Edit the settings in the `main` function of what directories to run SAGE on and with what parameters.
+Edit the settings in the `main` function of `runSage_grid.py` what directories to run SAGE on and with what parameters.
 
 ## Viewing output
 Output is saved out in CSV files. An example of reading this output is at `jupyter/sage_output.ipynb`.
