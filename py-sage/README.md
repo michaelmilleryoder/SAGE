@@ -1,4 +1,18 @@
-SAGE in Python
+# Running SAGE with a grid search on parameters
+## Environment
+Run `conda create -p <env_dirpath> --file requirements.txt` to create a new Python 2.7 conda environment to run py-sage (or `conda activate conda_env` if that's already there).
+
+## Input
+It expects a directory with different text files that each contain a section of the corpus. Each of these text files contain one sentence or document per line, tokenized and lowercased if you want.
+
+## Running
+Edit the settings in the `main` function of what directories to run SAGE on and with what parameters.
+
+## Viewing output
+Output is saved out in CSV files. An example of reading this output is at `jupyter/sage_output.ipynb`.
+
+
+SAGE in Python (original README instructions)
 ==========
 
 You can run SAGE in Python or from the command line to identify keywords that distinguish parts of a corpus of text. For example, SAGE can be used to distinguish:
